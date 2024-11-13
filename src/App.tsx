@@ -33,7 +33,7 @@ export function HeaderPlaceholder() {
 export function MobileHeaderPlaceholder(pageName?: string) {
   return (
     <>
-      <Image src="https://cdn-icons-png.flaticon.com/512/3230/3230393.png" width="50" height="50" className='icon' />
+{/*       <Image src="https://cdn-icons-png.flaticon.com/512/3230/3230393.png" width="50" height="50" className='icon' /> */}
       <span className='ps-3'>{pageName}</span>
     </>
   );
@@ -41,8 +41,6 @@ export function MobileHeaderPlaceholder(pageName?: string) {
 
 export const menuItems: MenuItemsType[] = [
   { to: '/', title: 'home', icon: <Home /> },
-  { to: '/#blog', title: 'blog', icon: <Book /> },
-  { to: '/#map', title: 'roadmap', icon: <GitBranch /> },
 ];
 
 function App() {
@@ -50,8 +48,6 @@ function App() {
     <div className="App">
         <Router>
           <Routes>
-            <Route path="/blog" element={<PageInDevelopment />}></Route>
-            <Route path="/map" element={<PageInDevelopment />}></Route>
             <Route path="/" element={<HomePage />}></Route>
           </Routes>
         </Router>

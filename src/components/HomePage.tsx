@@ -12,7 +12,7 @@ function HomePage() {
 
     return (
         <>
-            <title>Home | Юлия Якушенкова</title>
+            <title>Максим Желтов</title>
             <div className="container-fluid h-100">
                 <div className="row justify-content-md-center" >
                     <div className="col-lg-3 px-0">

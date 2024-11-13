@@ -24,7 +24,7 @@ export function Tools({ tools }: { tools: ToolsType }) {
                     {toolsArr.map((item, i) => {
                         const iconProps: IconProps = {
                             size: 14,
-                            color: '#9fa8da',
+                            color: '#d2691e',
                         }
                         const icon = TechKeywordIcon({ keyword: item, props: iconProps });
                         return (

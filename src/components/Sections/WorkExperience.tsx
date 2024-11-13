@@ -25,7 +25,7 @@ function Summary({ summaries }: { summaries: string }) {
                         <>
                             {summary != '' && summary != null &&
                                 <li key={index} className="list-group-item border-0 px-0">
-                                    <CircleFill className="me-1" size={6} fill="#9fa8da" />
+                                    <CircleFill className="me-1" size={6} fill="#cd853f" />
                                     {summary}
                                 </li>
                             }

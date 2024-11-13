@@ -18,12 +18,12 @@ export interface ResumeType {
     summary: SummaryType;
     socialNetworks: SocialNetworksType;
     workExperience: WorkExperienceType;
-    certificates: CertificatesType;
+    certificates?: CertificatesType;
     careerObjectives: CareerObjectivesType;
     education: EducationType;
-    technicalSkills: TechnicalSkillsType;
+    technicalSkills?: TechnicalSkillsType;
     otherSkills: OtherSkillsType;
-    methodology: MethodologiesType;
+    methodology?: MethodologiesType;
     tools: ToolsType;
 }
 
@@ -43,7 +43,7 @@ export function Resume({ resume }: { resume: ResumeType }) {
                         <Summary summary={resume.summary} />
                     </div>
                     <WorkExperience workExperience={resume.workExperience} />
-                    <Certificates certificates={resume.certificates} />
+                    {resume.certificates != null && <Certificates certificates={resume.certificates} />}
                 </div>
                 <div className="col-xl-4 resume-sections secondary-sections">
                     <div className="summary-section right">
@@ -51,9 +51,9 @@ export function Resume({ resume }: { resume: ResumeType }) {
                     </div>
                     <CareerObjectives careerObjectives={resume.careerObjectives} />
                     <Education education={resume.education} />
-                    <TechnicalSkills technicalSkills={resume.technicalSkills} />
+                    {resume.technicalSkills != null && <TechnicalSkills technicalSkills={resume.technicalSkills} />}
                     <OtherSkills otherSkills={resume.otherSkills} />
-                    <Methodologies methodologies={resume.methodology} />
+                    {resume.methodology != null && <Methodologies methodologies={resume.methodology} />}
                     <Tools tools={resume.tools} />
                 </div>
             </div>

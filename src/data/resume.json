@@ -1,37 +1,37 @@
 {
     "basic": {
         "title": "",
-        "firstName": "Юлия",
-        "lastName": "Якушенкова",
+        "firstName": "Максим",
+        "lastName": "Желтов",
         "jobTitle": "Java Developer",
-        "experience": "Опыт работы: 4 года",
-        "mobile": "+7 (917) 561-34-21",
-        "email": "y.yakushenkova@ya.ru",
+        "experience": "Опыт работы: 5 лет",
+        "mobile": "+7 (964) 551-10-64",
+        "email": "obi-max@yandex.ru",
         "location": "Москва, Россия"
     },
     "summary": {
         "title": "О себе",
-        "info": "<b>Backend-разработчик с 4-х летним опытом</b> работы в IT, из которых 2+ в банковской сфере (B2B). \nВ короткие сроки перешла на стек <b>Java/React</b> с разработки на Salesforce, помогала в обучении коллег из своей и других команд разработке на внутренней платформе. Участвовала в полном цикле разработки бизнес-задач — <b>собирала требования, <i>разрабатывала</i> и автоматизировала тестирование</b> в команде, содержащей <i>исключительно разработчиков</i>. \nВсё что можно атвоматизирвоать — нужно автоматизировать. \nАдепт методолгий TDD и BDD: за качественный код отвечает разработчик, а за продукт — QA, поэтому разработчик должен тестировать сам свой код; разработчик должен не просто выполнять поставленные задачи, но и понимать их бизнес смысл."
+        "info": "<b>Backend-разработчик с 5-ти летним опытом</b> работы в IT. \n Еще в школе, посещая дополнительно курсы Мытищинской Школы программистов понял, что разработка мое призвание. \n Попал в Сбер по программе стажировок в 2019 году, еще будучи студентом магистратуры. \n В Сбере прошел путь от стажера до старшего разработчика, занимающегося миграциями более 70 микросервисов на новый стэк технологий <b>(Java 17, Spring Boot 3)</b>. \n Увлекаюсь сбором и покрасом моделей, варгеймами (Warhammer), настольными и компьютерными играми, тяжелой и электронной музыкой. "
     },
     "socialNetworks": {
-        "github": "https://github.com/ayntsbern",
+        "github": "https://github.com/Obi-Max",
         "twitter": "",
-        "linkedin": "http://linkedin.com/in/yuliya-yakushenkova",
-        "telegram": "https://t.me/ayntsbern",
-        "hh": "https://hh.ru/resume/60affcf1ff0be12b6b0039ed1f66666f4c6c55"
+        "linkedin": "",
+        "telegram": "https://t.me/zheltovmax",
+        "hh": ""
     },
     "education": {
         "title": "Образование",
         "schools": [
             {
                 "school": "[МЭИ](https://www.mpei.ru/)",
-                "name": "Информатика и вычислительная техника",
+                "name": "Прикладная математика и информатика",
                 "degree": "магистр",
                 "range": "2017 — 2019"
             },
             {
                 "school": "[МЭИ](https://www.mpei.ru/)",
-                "name": "Информатика и вычислительная техника",
+                "name": "Прикладная математика и информатика",
                 "degree": "бакалавр",
                 "range": "2013 — 2017"
             }
@@ -39,31 +39,31 @@
     },
     "careerObjectives": {
         "title": "Карьерные ожидания",
-        "info": "Интересная должность, на которой у меня будет возможность получить новые знания/опыт и использовать уже полученные. А так же иметь возможость максимально реализовать свой творческий/технический потенциал и внести вклад в проект компании. \n\nПредпочтения: гибридный режим работы: в офисе и дома"
+        "info": "Предпочтения: гибридный режим работы: в офисе и дома. Не более 1-2 дней в офисе."
     },
     "workExperience": {
         "title": "Опыт работы",
         "experiences": [
             {
-                "role": "Java/React Developer",
-                "company": "Deutsche Bank",
-                "summary": "изучила самостоятельно Typescript (React), отвечала за перевод MVP функционала с Salesforce Org на внутреннюю платформу с использованием Java/React, помогала коллегам из своей команды и других команд начать разрабатывать на внутренней платформе \n разработала интеграцию внутренней платформы с Salesforce Org с использованием REST API \nзанималась разработкой адаптивного сайта под мобильное приложение \nначала разработку универсального фреймворка для использования на внутренней платформе на базе библиотеки, выбранной на основе критериев и с учётом бизнес-требований",
-                "keys": "Salesforce, JS",
-                "range": "Март 2022 — Май 2023"
+                "role": "Старший инженер по разработке",
+                "company": "ПАО Сбербанк",
+                "summary": "Оптимизировал работу контрактов. Результатом оптимизации стало ускорение сборок микросервисов в среднем в 1.5 - 2 раза.\n Закончив миграцию из монолита в микросервисы, В 2023 году осуществил переход более 70 микросервисов с Java 11 на Java 17, параллельно выполняя бизнес-задачи. \n C 2023 по 2024 год перевел микросервисы со Spring Boot 2.5.4 на 2.5.7, а затем и на 2.7.18. \n Подготовил переход микросервисов на Spring Boot 3." ,
+                "keys": "Java, Groovy, Spring Boot, Openshift, Bitbucket, Jira",
+                "range": "Август 2021 — настоящее время"
             },
             {
-                "role": "Salesforce Developer",
-                "company": "Deutsche Bank",
-                "summary": "настроила Sonar для проекта с автотестами на Java, что позволило сэкономить время членов команды от pre-review кода написанного начинающими разработчиками \nразработала с нуля форму-фреймворк для опроса клиентов в Salesforce (LWC), отвечающую бизнес-требованиям — позволяющую генерировать требуемый опросник с помощью json без прямого участия разработчиков \nразработала решение по выводу из эксплуатации Salesforce Org \nначала обсуждение и проработку решения о переводе клиентского портала из Salesforce на Platform Agnostic с использованием React",
-                "keys": "Salesforce, JS, Jest, Java, Cucumber, BDD, TDD, TeamCity",
-                "range": "Январь 2021 — Март 2022"
+                "role": "Инженер по разработке",
+                "company": "ПАО Сбербанк",
+                "summary": "Реализовывал миграцию десятков сервисов из монолитного приложения в микросервисную архитектуру.\n Осуществлял всевозможную помощь аналитике при миграции, в силу отсутствия требований для монолитного приложения. По старой кодовой базе разбирал работу десятка бизнес-сервисов и переносил на новый стэк.\n Писал контракты и unit-тесты.",
+                "keys": "Java, Groovy, Spring Boot, Openshift, Bitbucket, Jira",
+                "range": "Июль 2019 — август 2021"
             },
             {
-                "role": "Salesforce Junior Developer",
-                "company": "Customertimes",
-                "summary": "работала в команде, в которой требовалось постоянная коммуникация и обсуждение бизнес-задач с BA, QA и консультантами Salesforce. \nписала Unit-тесты \nразрабатывала новый функционал REST API, который использовался в мобильном приложении\nразрабатывала функционал, требующего интеграции с Salesforce с использованием стороннего приложения на REST API \nразрабатывала сервис push-уведомлений для платформ iOS и Android с использованием стороннего сервиса из-за ограничений платформы Salesforce, что позволило увеличить количество отправляемых за раз уведомлений. \nразрабатывала web-страниц с использованием фреймворков Lightning components и Lightning Web Components. \nразрабатывала триггеры на Apex для выполнений проверки определенных условий или действия до/после выполнения операций по CUD (create, update, delete)",
-                "keys": "Salesforce, JS",
-                "range": "Август 2019 — Март 2022"
+                "role": "Cтажёр",
+                "company": "ПАО Сбербанк",
+                "summary": "Пришел в команду Универсальных Сервисов Вкладов. Уже в первый месяц после знакомства с продуктом начал выполнять первые бизнес задачи и помогать аналитикам. \n Улучшал покрытие кодовой базы unit-тестами. \n Разбирал и правил дефекты Прома.",
+                "keys": "Java, Groovy, Spring Boot, Openshift, Bitbucket, Jira",
+                "range": "Апрель 2019 — Июль 2019"
             }
         ]
     },
@@ -71,52 +71,12 @@
         "title": "",
         "projects": []
     },
-    "certificates": {
-        "title": "Сертификаты",
-        "certificates": [
-            {
-                "name": "Salesforce Certified Platform App Builder",
-                "description": "Для верификации используйте: Yuliya Yakushenkova",
-                "badge": "https://developer.salesforce.com/resources2/certification-site/images/Certifications-logo/Platform-App-Builder.png",
-                "proof": "https://trailhead.salesforce.com/en/credentials/verification/",
-                "earnedDate": "Apr 2020"
-            },
-            {
-                "name": "Salesforce Certified Platform Developer I",
-                "description": "Для верификации используйте: Yuliya Yakushenkova",
-                "badge": "https://developer.salesforce.com/resources2/certification-site/images/Certifications-logo/Platform-Developer-I.png",
-                "proof": "https://trailhead.salesforce.com/en/credentials/verification/",
-                "earnedDate": "Nov 2019"
-            }
-        ]
-    },
-    "technicalSkills": {
-        "title": "Технические знания",
-        "skills": [
-            {
-                "skill": "Salesforce",
-                "level": 4.2
-            },
-            {
-                "skill": "Java",
-                "level": 4
-            },
-            {
-                "skill": "TypeScript",
-                "level": 2.5
-            }
-        ]
-    },
     "otherSkills": {
         "title": "Технологии",
-        "skills": "Java, Spring Framework, Cucumber, Salesforce, CSS, React, TypeScript, JavaScript, Jest, Clickhouse, Maven"
-    },
-    "methodology": {
-        "title": "Методологии",
-        "skills": "BDD, TDD, Scrum, Agile"
+        "skills": "Java, Spring Framework, Maven, Groovy, Openshift"
     },
     "tools": {
         "title": "Инструменты разработки",
-        "tools": "TeamCity, Jenkins, IntelliJ IDEA, WebStorm, VSCode, Git, Bash"
+        "tools": "Jenkins, IntelliJ IDEA, Git, Bash"
     }
 }
