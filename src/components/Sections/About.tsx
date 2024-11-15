@@ -35,10 +35,10 @@ export function About({ about, socialNetworks }: { about: AboutType, socialNetwo
         <a className="ps-1" href={`mailto:${about.email}`}>{about.email}</a>
     </div>;
 
-    const mobile = <div className="d-flex align-items-center">
+    const mobile = about.mobile != "" ? <div className="d-flex align-items-center">
         <div className="d-flex align-items-center"><Phone size={14} /></div>
         <div className="ps-1" >{about.mobile}</div>
-    </div>;
+    </div> : <></>;
     const iconSize = '1.5rem';
     return (
         <Section>
